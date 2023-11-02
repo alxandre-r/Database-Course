@@ -1,0 +1,5 @@
+id_fournisseur,nom,description,mail,numero_tel
+1,Fournisseur A,Fournisseur de son,contact@fournisseurA.com,123456789
+2,Fournisseur B,Fournisseur de lumières,contact@fournisseurB.com,987654321
+3,Fournisseur C,Fournisseur de scène,contact@fournisseurC.com,456789123
+

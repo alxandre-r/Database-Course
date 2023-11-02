@@ -1,0 +1,47 @@
+Categorie (cat_acronyme, description, id_film)
+Clé primaire : cat_acronyme
+Clé étrangère : id_film
+
+Film (id_film, cat_acronyme, titre, duree, pays, annee, note, langue)
+Clé primaire : id_film
+Clé étrangère : cat_acronyme
+
+Distributeur (id_distrib, nom, adresse, id_film)
+Clé primaire : id_distrib
+Clé étrangère : id_film
+
+Artiste (id_artist, nom, prénom, dateNaissance)
+Clé primaire : id_artist
+
+Location (id_location, id_film, id_magasin, id_client, mag_adresse, dateDebut, dateFin)
+Clé primaire : id_location
+Clé secondaire : id_film, id_client, mag_adresse
+
+Client (id_client, nom, prenom, adresse, mail, solde)
+Clé primaire : id_client
+Clé secondaire : id_film, id_client, mag_adresse
+
+Employe (id_employe, nom, prenom, adresse, mail, salaire)
+Clé primaire : id_employe
+Clé étrangère : 
+
+Magasin (id_magasin, adresee, id_film) // mag_adresse ??
+Clé primaire : id_magasin
+Clé étrangère : id_film, id_employe
+
+
+joue(id_film, id_artist)
+Clé primaire : id_film + id_artist
+Clé étrangère : id_film, id_artist
+
+realise(id_film, id_artist)
+Clé primaire : id_film + id_artist
+Clé étrangère : id_film, id_artist
+
+stock(id_film, id_magasin, nombre)
+Clé primaire : id_film + id_artist
+Clé étrangère : id_film, id_artist
+
+categorie(cat_acronyme, id_film)
+Clé primaire : cat_acronyme + id_film
+Clé étrangère : cat_acronyme, id_film

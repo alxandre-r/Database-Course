@@ -1,0 +1,5 @@
+id_materiel,id_evenement,id_fournisseur,nom_materiel
+1,1,1,"Enceinte"
+2,1,2,"Projecteur"
+3,2,1,"Microphone"
+4,2,3,"Caméra"

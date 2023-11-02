@@ -1,0 +1,13 @@
+La table "station" possède la clé primaire "numer_sta" et un champ "region_id" qui est une clé étrangère référençant la table "region".
+La table "region" possède la clé primaire "id".
+La table "meteo" possède une clé primaire composite composée de la clé étrangère "numer_sta" référençant la table "station" et du champ "date".
+La table "code_temps_present" possède une clé primaire "code" 
+
+-------------------------------------------------
+
+station(numer_sta PK, region_id FK)
+region(id PK, nom, region_limitrophes)
+meteo(numer_sta PK FK, date PK, dd, ff, t, u, ww, pres)
+code_temps_present(code PK, description)
+
+*PK = Primary Key, FK = Foreign key

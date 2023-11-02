@@ -1,0 +1,4 @@
+id_employe,nom,prenom,mail,poste
+1,Dupont,Pierre,pierre.dupont@example.com,Technicien
+2,Martin,Sophie,sophie.martin@example.com,Agent de sécurité
+3,Dubois,Paul,paul.dubois@example.com,Agent de nettoyage

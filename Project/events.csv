@@ -1,0 +1,5 @@
+id_evenement,nom,description,date_debut,date_fin,prix_tickets,places_totales,places_restantes,tickets_vendus,recettes,depenses,bilan
+1,Concert A,Concert de rock,2023-07-01,2023-07-02,50,500,500,200,10000,5000,5000
+2,Spectacle B,Spectacle de magie,2023-07-05,2023-07-06,30,300,300,150,4500,2500,2000
+3,Festival C,Festival de musique,2023-07-10,2023-07-12,80,1000,1000,800,64000,35000,29000
+

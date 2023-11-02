@@ -1,0 +1,5 @@
+id_billetterie,id_evenement,tickets_vendus,recettes,depenses
+1,1,100,1500.00,500.00
+2,2,75,1125.50,400.25
+3,3,50,750.75,300.50
+
